@@ -1,9 +1,9 @@
 {
-    "coin": "ducknote",
-    "symbol": "XDN",
-    "coinUnits": 100000000,
-    "coinDifficultyTarget": 240,
-
+ "coin": "Haven",
+	"symbol": "XHV",
+	"coinUnits": 1000000000000,
+	"coinDifficultyTarget": 120,
+	
     "logging": {
         "files": {
             "level": "info",
@@ -19,8 +19,8 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "ddehi53dwGSBEXdhTYtga2R3fS4y9hRz4YHAsLABJpH75yUd5EDQmuL3yDBj1mG6MMeDfydY9vp4zFVVNQ99FTYq2PpsFJP2y",
-        "blockRefreshInterval": 1000,
+        "poolAddress": "hvxy28aJhVdSStEdCEAFkt2n6mhdiKXdriqxGcQn31PXPxuJCV31JDBdBnp1uEurp79e4tNCNKXZcSTzHD4XX8s29DfqpHYadv",
+        "blockRefreshInterval": 10,
         "minerTimeout": 900,
         "ports": [
             {
@@ -86,11 +86,11 @@
     "blockUnlocker": {
         "enabled": true,
         "interval": 30,
-        "depth": 10,
-        "poolFee": 2,
-        "devDonation": 0.1,
-        "coreDevDonation": 0.1,
-        "extraFeaturesDevDonation":0.1
+        "depth": 60,
+        "poolFee": 0.0,
+        "devDonation": 0.0,
+        "coreDevDonation": 0.0,
+        "extraFeaturesDevDonation":0.0
     },
 
     "api": {
@@ -100,17 +100,17 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "kiki6969"
     },
 
     "daemon": {
-        "host": "127.0.0.1",
-        "port": 42081
+        "host": "18.221.222.198",
+        "port": 17550
     },
 
     "wallet": {
-        "host": "127.0.0.1",
-        "port": 8082
+        "host": "18.221.222.198",
+        "port": 17552
     },
 
     "redis": {
