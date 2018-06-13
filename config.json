@@ -11,7 +11,7 @@
             "flushInterval": 5
         },
         "console": {
-            "level": "info",
+            "level": "debug",
             "colors": true
         }
     },
